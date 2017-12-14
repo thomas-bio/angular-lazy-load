@@ -7,4 +7,4 @@ const routes: Routes = [
   { path: '', component: LazierComponent }
 ];
 
-export const routing: ModuleWithProviders = RouterModule.forChild(routes);
+export const defaultExportRouting: ModuleWithProviders = RouterModule.forChild(routes);
