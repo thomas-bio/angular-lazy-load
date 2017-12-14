@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: 'eager', component: EagerComponent },
   { path: 'lazy', loadChildren: './lazy/lazy.module#LazyModule' },
   { path: 'lz', loadChildren: './lazy-default-export/lazy-default-export.module' },
+  { path: 'container', loadChildren: './lazy-container/lazy-container.module#LazyContainerModule' }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(routes);
