@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
     <nav>
       <a routerLink="eager">Eager</a>
       <a routerLink="lazy">Lazy</a>
+      <a routerLink="lz">Lazy with a default export</a>
     </nav>
     <router-outlet></router-outlet>
   `
